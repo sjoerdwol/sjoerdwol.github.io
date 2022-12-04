@@ -1,0 +1,138 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
+/* General Styling */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #402E32;
+  font-size: 16px;
+}
+
+/* Structural Styling */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  border-bottom: 1px solid #FFF6ED;
+  color: #DFE0DF;
+  display: flex;
+  font-family: 'Proza Libre', sans-serif;
+  justify-content: space-between;
+  margin: 0 0 2rem 0;
+  padding: 0.5rem 0;
+  position: relative;
+  top: 0px;
+}
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto 0 auto;
+  padding: 0 10% 0 10%;
+}
+
+/* Header Styling */
+#page_title {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0 0 0 15%;
+}
+
+#top_level_nav {
+  float: right;
+  margin: 0 15% 0 0;
+}
+
+#top_level_nav ul, #top_level_nav li {
+  display: inline;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;  
+  padding: 1rem 1rem 1rem 1rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* Section Styling */
+section {
+  margin: 0;
+}
+
+/* Article Styling */
+article {
+  background-color: #FFF6ED;
+  border-radius: 10px;
+  margin: 0 0 1.5rem 0;
+  padding: 0 0 1rem 0;
+}
+
+article p {
+  margin: 0;
+  padding: 0;
+}
+
+.article_title{
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem 10% 0 10%;
+}
+
+.content_text {
+  padding: 0 10% 0 10%;
+}
+
+#description_text{
+  display: flex;
+}
+
+#description_text img {
+  border-radius: 50%;
+  margin: 0 auto;
+  rotate: -50deg;
+  width: 20rem;
+}
+
+#description_text p {
+  width: 50%;
+}
+
+#projects_text a{
+  color: black;
+  text-decoration: none;
+}
+
+#projects_text a:hover{
+  color: #E17226;
+}
+
+#skills_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+#skills_text i{
+  font-size: 3rem;
+  width: 2rem;
+  margin-top: 0.5rem;
+}
+
+/* Footer Styling */
+footer {
+  color: #DFE0DF;
+  margin-top: auto;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer span {
+  color: red;
+}
