@@ -3,18 +3,64 @@
   <head>
     <title>My Portfolio</title>
     <!-- Imports -->
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="./resources/styles/index.css">
     <script src="./scripts/index.js"></script>
+    <script src="https://kit.fontawesome.com/0cddeca022.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-
+      <h1 id="page_title">Sjoerd Wolters</h1>
+      <nav id="top_level_nav">
+        <ul>
+          <li>About Me</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
     <main>
-
+      <section class="content">
+        <article id="description">
+          <h2 class="article_title" id="description_title">About Me</h2>
+          <div class="content_text" id="description_text">
+            <p>
+              Hi! My name is Sjoerd Wolters and I am a 21-year old Dutchman living in Ettenheim, Germany. I am currently working as a Software Engineer at Atruvia AG.
+              During work, I am mainly focused on teaching my colleagues on proper Quality Assurance and Static Code Analysis during the Development Process.<br>
+              <br>
+              In my free time, I like to spend my time watching football.<br> 
+              I am a member of and thus support Sport-Club Freiburg e.V.<br>
+              Also, I like to play video games, on PC as well as on PS5 and Nintendo Switch.<br>
+              <br>
+              I am currently also spending a lot of time on learning to become a Front-End Engineer on Codecademy! I hope to be able to make a career out of this!
+            </p>
+            <img src="./resources/images/sjoerd_picture.jpg" alt="Picture of Sjoerd Wolters">
+          </div>
+        </article>
+        <article id="projects">
+          <h2 class="article_title" id="projects_title">Projects</h2>
+          <div class="content_text" id="projects_text">
+            Since I haven't been programming for long, I haven't worked on any real projects yet.<br>
+            <br>
+            However, I have created a Web Developing Cheat Sheet during the Front-End Engineer Career Path.<br>
+            You can access this project on my GitHub here: <a href="https://github.com/sjoerdwol/webdev-cheatsheet" target="_blank">webdev-cheatsheet</a>
+          </div>
+        </article>
+        <article id="skills">
+          <h2 class="article_title" id="skills_title">Skills</h2>
+          <div class="content_text" id="skills_text">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-square-git"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-npm"></i>
+            <i class="fa-brands fa-jenkins"></i>
+          </div>
+        </article>
+      </section>
     </main>
     <footer>
-
+      Made with <span>♥</span> in Ettenheim
     </footer>
   </body>
 </html>
