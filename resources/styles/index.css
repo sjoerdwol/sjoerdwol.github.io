@@ -58,6 +58,22 @@ main {
   vertical-align: middle;
 }
 
+#top_level_nav ul {
+  cursor: context-menu;
+}
+
+#top_level_nav li {
+  cursor: pointer;
+}
+
+#top_level_nav li:hover {
+  color: #E17226;
+}
+
+#text_contact span {
+  font-size: 1.3rem;
+  text-transform: lowercase;
+}
 /* Section Styling */
 section {
   margin: 0;
@@ -85,6 +101,10 @@ article p {
 
 .content_text {
   padding: 0 10% 0 10%;
+}
+
+.hidden {
+  display: none;
 }
 
 #description_text{
@@ -123,10 +143,6 @@ article p {
   font-size: 3rem;
   width: 2rem;
   margin-top: 0.5rem;
-}
-
-#text_contact {
-  display: none;
 }
 
 /* Footer Styling */
