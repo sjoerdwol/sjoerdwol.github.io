@@ -125,6 +125,10 @@ article p {
   margin-top: 0.5rem;
 }
 
+#text_contact {
+  display: none;
+}
+
 /* Footer Styling */
 footer {
   color: #DFE0DF;
