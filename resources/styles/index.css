@@ -162,3 +162,51 @@ footer {
 footer span {
   color: red;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  #page_title {
+    font-size: 1.5rem;
+    margin: 0 0 0 10%;
+  }
+
+  #top_level_nav {
+    float: right;
+    margin: 0 10% 0 0;
+  }
+  
+  #top_level_nav ul, #top_level_nav li {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+
+  article{
+    font-size: 0.9rem;
+  }
+
+  .article_title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #description_text img {
+    display: none;
+  }
+
+  #description_text p {
+    width: 100%;
+  }
+
+  #skills_text i {
+    font-size: 1.5rem;
+  }
+
+  #text_contact i {
+    font-size: 1.5rem;
+  }
+
+  #text_contact a {
+    font-size: 0.95rem;
+  }
+}
