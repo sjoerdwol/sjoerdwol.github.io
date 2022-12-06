@@ -70,9 +70,15 @@ main {
   color: #E17226;
 }
 
-#text_contact span {
-  font-size: 1.3rem;
+#text_contact a {
+  color: black;
+  font-size: 1.25rem;
+  text-decoration: none;
   text-transform: lowercase;
+}
+
+#text_contact a:hover{
+  color: #E17226;
 }
 /* Section Styling */
 section {
