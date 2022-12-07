@@ -7,7 +7,10 @@
 }
 
 html {
-  background-color: #402E32;
+  /*background-color: #402E32;*/
+  background: url(../images/background-waves.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 16px;
 }
 
