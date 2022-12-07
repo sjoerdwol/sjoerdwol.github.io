@@ -26,12 +26,16 @@ function changeViewContact(){
   text_aboutme.classList.add('hidden');
   project_Article.classList.add('hidden');
   skills_Article.classList.add('hidden');
+  li_aboutme.classList.remove('active');
+  li_contact.classList.add('active');
   switching_title.innerHTML = 'Contact';
   text_contact.classList.remove('hidden');
 };
 
 function changeViewAboutme(){
   text_contact.classList.add('hidden');
+  li_aboutme.classList.add('active');
+  li_contact.classList.remove('active');
   switching_title.innerHTML = 'About Me';
   text_aboutme.classList.remove('hidden');
   project_Article.classList.remove('hidden');

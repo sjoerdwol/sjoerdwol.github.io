@@ -1,13 +1,20 @@
 /* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
 
+/* Variables */
+:root {
+  --color_bg: #402E32;
+  --color_hover: #E17226;
+  --color_hl_1: #FFF6ED;
+  --color_text: #DFE0DF;
+}
+
 /* General Styling */
 * {
   box-sizing: border-box;
 }
 
 html {
-  /*background-color: #402E32;*/
   background: url(../images/background-waves.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,8 +29,8 @@ body {
 
 header {
   align-items: center;
-  border-bottom: 1px solid #FFF6ED;
-  color: #DFE0DF;
+  border-bottom: 1px solid var(--color_hl_1);
+  color: var(--color_text);
   display: flex;
   font-family: 'Proza Libre', sans-serif;
   justify-content: space-between;
@@ -37,6 +44,10 @@ main {
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto 0 auto;
   padding: 0 10% 0 10%;
+}
+
+nav li {
+  text-decoration: none;
 }
 
 /* Header Styling */
@@ -57,7 +68,6 @@ main {
   font-weight: 700;
   margin: 0;  
   padding: 1rem 1rem 1rem 1rem;
-  text-decoration: none;
   vertical-align: middle;
 }
 
@@ -70,7 +80,7 @@ main {
 }
 
 #top_level_nav li:hover {
-  color: #E17226;
+  color: var(--color_hover);
 }
 
 #text_contact a {
@@ -81,7 +91,7 @@ main {
 }
 
 #text_contact a:hover{
-  color: #E17226;
+  color: var(--color_hover);
 }
 /* Section Styling */
 section {
@@ -90,7 +100,7 @@ section {
 
 /* Article Styling */
 article {
-  background-color: #FFF6ED;
+  background-color: var(--color_hl_1);
   border-radius: 10px;
   margin: 0 0 1.5rem 0;
   padding: 0 0 1rem 0;
@@ -110,6 +120,10 @@ article p {
 
 .content_text {
   padding: 0 10% 0 10%;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .hidden {
@@ -137,7 +151,7 @@ article p {
 }
 
 #projects_text a:hover{
-  color: #E17226;
+  color: var(--color_hover);
 }
 
 #skills_text {
@@ -156,7 +170,7 @@ article p {
 
 /* Footer Styling */
 footer {
-  color: #DFE0DF;
+  color: var(--color_text);
   margin-top: auto;
   padding: 1rem 0;
   text-align: center;
@@ -169,6 +183,10 @@ footer span {
 /* Media Queries */
 /* Query for phones / screens smaller than 424px */
 @media screen and (max-width: 424px) {
+  html {
+    background: url(../images/background-waves-phone.svg);
+  }
+  
   #page_title {
     font-size: 1.25rem;
     margin: 0 0 0 10%;
@@ -221,6 +239,10 @@ footer span {
 
 /* Query for phones / screens between 425px and 767px */
 @media screen and (min-width: 425px) and (max-width: 767px) {
+  html {
+    background: url(../images/background-waves-phone.svg);
+  }
+  
   #page_title {
     font-size: 1.5rem;
     margin: 0 0 0 10%;
@@ -267,6 +289,7 @@ footer span {
   }
 }
 
+/* Query for tablets */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #description_text img {
     border-radius: 50%;
@@ -276,6 +299,7 @@ footer span {
   }
 }
 
+/* Query for smaller laptop screens */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   #description_text img {
     border-radius: 50%;
