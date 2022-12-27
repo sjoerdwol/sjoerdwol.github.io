@@ -162,9 +162,8 @@ article p {
   width: 100%;
 }
 
-#skills_text i{
-  font-size: 3rem;
-  width: 2rem;
+#skills_text img{
+  width: 2.5rem;
   margin-top: 0.5rem;
 }
 
