@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e1c1ad0.css",
+    "main.js": "/static/js/main.e40e38de.js",
+    "static/media/sjoerd_picture.jpg": "/static/media/sjoerd_picture.4a1a8ec9b941551950e5.jpg",
+    "static/media/GrestalScriptRegular.ttf": "/static/media/GrestalScriptRegular.bd174b0a1030d1e7a59e.ttf",
+    "index.html": "/index.html",
+    "main.4e1c1ad0.css.map": "/static/css/main.4e1c1ad0.css.map",
+    "main.e40e38de.js.map": "/static/js/main.e40e38de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1c1ad0.css",
+    "static/js/main.e40e38de.js"
+  ]
+}
