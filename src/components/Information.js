@@ -4,8 +4,8 @@ import picture from './data/images/sjoerd_picture.jpg';
 export function Information(props) {
   return (
     <div className='text-center p-8 md:px-10'>
-      <h2 className='text-3xl font-semibold text-darkjunglegreen-500 dark:text-platinum-500 md:text-5xl'>Sjoerd Wolters</h2>
-      <h3 className='text-xl py-2 text-darkjunglegreen-500 dark:text-platinum-500 md:text-2xl md:py-5'>Software Engineer and Hobby-Developer</h3>
+      <h2 className='text-3xl font-semibold font-WorkSans text-darkjunglegreen-500 dark:text-platinum-500 md:text-5xl'>Sjoerd Wolters</h2>
+      <h3 className='text-xl py-2 font-WorkSans text-darkjunglegreen-500 dark:text-platinum-500 md:text-2xl md:py-5'>Software Engineer and Hobby-Developer</h3>
       <div className='flex text-4xl justify-center gap-3 py-2 md:text-6xl md:gap-4'>
         <a href='https://www.linkedin.com/in/sjoerdwol/'><AiFillLinkedin className='text-darkjunglegreen-500 dark:text-platinum-500' alt='LinkedIn' title='LinkedIn' /></a>
         <a href='https://twitter.com/realwatsn'><AiOutlineTwitter className='text-darkjunglegreen-500 dark:text-platinum-500' alt='Twitter' title='Twitter' /></a>

@@ -28,6 +28,10 @@ module.exports = {
           500: '#121B28'
         },
       },
+      fontFamily: {
+        grestal: 'grestal',
+        WorkSans: 'WorkSans'
+      },
     },
   },
   plugins: [],
