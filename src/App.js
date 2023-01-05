@@ -11,7 +11,7 @@ function App() {
   return (
     <div className={dark ? 'dark' : ''}>
       <main className='px-5 bg-platinum-500
-        dark:bg-darkjunglegreen-500
+        dark:bg-darkjunglegreen-500 transition-colors duration-500
         md:px-10 
         lg:px-16 
         xl:px-20 
